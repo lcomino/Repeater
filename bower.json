@@ -18,5 +18,8 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "StringJs": "git@github.com:lcomino/StringJs.git"
+  }
 }
