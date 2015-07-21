@@ -20,7 +20,7 @@
     "tests"
   ],
   "dependencies": {
-    "StringJs": "git@github.com:lcomino/StringJs.git",
+    "StringJs": "*",
     "ObjectJs": "*"
   }
 }
