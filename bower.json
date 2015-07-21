@@ -20,8 +20,7 @@
     "tests"
   ],
   "dependencies": {
-    "StringJs": "git@github.com:lcomino/StringJs.git",
-    "RepeaterJs": "git@github.com:lcomino/Repeater.git",
+    "StringJs": "git@github.com:lcomino/StringJs.git",    
     "ObjectJs": "git@github.com:lcomino/ObjectJs.git"
   }
 }
