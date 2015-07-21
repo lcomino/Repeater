@@ -16,23 +16,18 @@
                 Nome
               </th>
               <th>
-                Sobrenome
+                Github
               </th>
-              <th>
-                Telefone
-              </th>
+
             </tr>
           </thead>
           <tbody>
-            <tr class="repeater" data-remote-source="data1.json">
+            <tr class="repeater">
               <td>
-                <a href="{{id}}">{{nome}}</a>
+                {{nome}}
               </td>
               <td>
-                {{sobrenome}}
-              </td>
-              <td>
-                {{telefone}}
+                <a href="{{github.url}}">{{github.usuario}}</a>
               </td>
             </tr>
           </tbody>

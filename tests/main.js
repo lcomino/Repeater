@@ -1,16 +1,21 @@
 window.onload = function(){
 
-  var data = [{
-    "nome" : "Lucas",
-    "sobrenome" : "Comino",
-    "telefone" : "+55 44 9999-9999"
+  var dados = [{
+      nome: 'Lucas Comino',
+      github : {
+        usuario: 'lcomino',
+        url : 'https://github.com/lcomino'
+      }
     },
     {
-      "nome" : "João",
-      "sobrenome" : "Silva",
-      "telefone" : "+55 44 8888-9999"
-  }];
+      nome: 'João da Silva',
+      github : {
+        usuario: 'joao.silva',
+        url : 'https://github.com/joao.silva'
+      }
+    }
+  ];
 
-  Repeater.init('.repeater', data);
+  Repeater.init('.repeater', dados);
 
 };
