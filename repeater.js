@@ -1,4 +1,4 @@
-var Repeater = (function(){
+(function(){
   var Repeater = {};
 
   var options = {
@@ -9,6 +9,7 @@ var Repeater = (function(){
   };
 
   Repeater.init = function(obj, data){
+    debugger;
     "use strict";
 
     var els = '';
@@ -46,7 +47,7 @@ var Repeater = (function(){
     if(typeof options.dataMainObj !== 'undefined')
       el.removeAttribute(options.sourceMainObject);
 
-    var result = String.bind(el.outerHTML, data);
+    var result = el.outerHTML.bind(data);
 
     p.innerHTML = result;
 
@@ -73,5 +74,6 @@ var Repeater = (function(){
     req.send();
   }
 
-  return Repeater;
-}());
+  if (typeof module !== 'undefined' && typeof module.exports !== 'undefined') module.exports = objectjs;
+  else window.Repeater = Repeater;
+})();

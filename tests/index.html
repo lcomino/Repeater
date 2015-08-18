@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lista</title>
+</head>
+<body>
+
+	<ul>
+		<li class="repeater">{{nome}} - {{telefone}}</li>
+	</ul>
+
+
+	<script type="text/javascript" src="../bower_components/ObjectJs/object.js"></script>
+	<script type="text/javascript" src="../bower_components/StringJs/string.js"></script>
+	<script type="text/javascript" src="../repeater.js"></script>
+	<script type="text/javascript">
+		var lista = [];
+
+		var lucas = {
+			nome : 'Lucas',
+			telefone : '9999-4444'
+		};
+
+		var patricia = {
+			nome : 'Patricia',
+			telefone : '9999-5555'
+		};
+
+		lista.push(lucas);
+		lista.push(patricia);
+
+		Repeater.init('.repeater', lista);
+	</script>
+
+</body>
+</html>
