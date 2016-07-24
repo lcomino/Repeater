@@ -10,12 +10,6 @@
 
   Repeater.middleware = '';
 
-  var middleware = function(el){
-    if(typeof Repeater.middleware === 'function'){
-      Repeater.middleware(el);
-    }
-  };
-
   Repeater.init = function(obj, data){
     debugger;
     "use strict";
@@ -57,7 +51,7 @@
 
     if(options)
 
-    var result = el.outerHTML.bind(data, null, middleware);
+    var result = el.outerHTML.bind(data, null, Repeater.middleware);
 
     p.innerHTML = result;
 
