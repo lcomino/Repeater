@@ -1,8 +1,8 @@
 {
-  "name": "RepeaterJs",
-  "version": "1.0.0",
+  "name": "repeaterjs",
+  "version": "1.0.1",
   "homepage": "https://github.com/lcomino/Repeater",
-  "description": "Feito para reptir qualquer coisa! Rows, divs, listas, links, imagens. Tudo utilizando um objeto JS! (Json)",
+  "description": "Feito para repetir qualquer coisa! Rows, divs, listas, links, imagens. Tudo utilizando um objeto JS! (Json)",
   "main": "repeater.js",
   "keywords": [
     "repeater",

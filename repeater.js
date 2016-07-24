@@ -8,6 +8,14 @@
     dataMainObject : ''
   };
 
+  Repeater.middleware = '';
+
+  var middleware = function(el){
+    if(typeof Repeater.middleware === 'function'){
+      Repeater.middleware(el);
+    }
+  };
+
   Repeater.init = function(obj, data){
     debugger;
     "use strict";
@@ -47,7 +55,9 @@
     if(typeof options.dataMainObj !== 'undefined')
       el.removeAttribute(options.sourceMainObject);
 
-    var result = el.outerHTML.bind(data);
+    if(options)
+
+    var result = el.outerHTML.bind(data, null, middleware);
 
     p.innerHTML = result;
 
