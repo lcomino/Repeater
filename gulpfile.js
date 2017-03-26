@@ -13,7 +13,7 @@ gulp.task('test', function (done) {
   }, done).start();
 });
 
-gulp.task('default', function(){  
+gulp.task('build', function(){  
   return gulp.src(['bower_components/StringJs/dist/string.js', 'bower_components/ObjectJs/object.js', 'src/*.js'])  
   .pipe(concat('repeater.js'))
   .pipe(uglify({
@@ -21,3 +21,5 @@ gulp.task('default', function(){
     }))
   .pipe(gulp.dest('dist'));
 });
+
+gulp.task('default', ['test', 'build']);

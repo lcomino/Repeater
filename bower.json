@@ -21,7 +21,8 @@
     "src",
     "gulpfile.js",
     "package.json",
-    "README.md"
+    "README.md",
+    "karma.conf.js"    
   ],
   "devDependencies": {
     "StringJs": "*",
