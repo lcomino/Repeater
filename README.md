@@ -1,5 +1,4 @@
 [![Build Status](https://travis-ci.org/lcomino/Repeater.svg?branch=master)](https://travis-ci.org/lcomino/Repeater)
-
 [![Dependencies Status](https://david-dm.org/lcomino/Repeater/status.svg)](https://david-dm.org/lcomino/Repeater)
 [![DevDependencies Status](https://david-dm.org/lcomino/Repeater/dev-status.svg)](https://david-dm.org/lcomino/Repeater?type=dev)
 
@@ -42,7 +41,7 @@ bower install RepeaterJs
     </tbody>
 </table>
 
-<script src="bower_components/RepeaterJs/repeater.js"></script>
+<script src="bower_components/repeaterjs/dist/repeater.js"></script>
 ```
 
 ## Utilizando
