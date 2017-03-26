@@ -10,10 +10,9 @@
 
   Repeater.middleware = '';
 
-  Repeater.init = function(obj, data){
-    debugger;
+  Repeater.init = function(obj, data){    
     "use strict";
-
+    
     var els = '';
 
     if(typeof obj === 'undefined')
@@ -51,7 +50,7 @@
 
     if(options)
 
-    var result = el.outerHTML.bind(data, null, Repeater.middleware);
+    var result = el.outerHTML.repeat(data, null, Repeater.middleware);
 
     p.innerHTML = result;
 

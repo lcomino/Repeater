@@ -17,7 +17,7 @@ gulp.task('build', function(){
   return gulp.src(['bower_components/StringJs/dist/string.js', 'bower_components/ObjectJs/object.js', 'src/*.js'])  
   .pipe(concat('repeater.js'))
   .pipe(uglify({
-      mangle: false
+      mangle: true
     }))
   .pipe(gulp.dest('dist'));
 });
