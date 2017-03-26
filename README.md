@@ -1,5 +1,10 @@
 [![Build Status](https://travis-ci.org/lcomino/Repeater.svg?branch=master)](https://travis-ci.org/lcomino/Repeater)
 
+[![Dependencies Status](https://david-dm.org/lcomino/Repeater/status.svg)](https://david-dm.org/lcomino/Repeater)
+[![DevDependencies Status](https://david-dm.org/lcomino/Repeater/dev-status.svg)](https://david-dm.org/lcomino/Repeater?type=dev)
+
+
+
 RepeaterJs
 ========
 
