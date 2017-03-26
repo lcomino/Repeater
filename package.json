@@ -1,0 +1,40 @@
+{
+  "name": "repeater-js",
+  "version": "1.0.0",
+  "description": "Feito para repetir qualquer coisas, div, tr, li, links, imagens. Tudo utilizando um obj JSON :)",
+  "main": "gulpfile.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lcomino/Repeater.git"
+  },
+  "keywords": [
+    "javascript",
+    "js",
+    "string",
+    "node",
+    "bower"
+  ],
+  "author": "@lcomino",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lcomino/Repeater/issues"
+  },
+  "homepage": "https://github.com/lcomino/Repeater#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-karma": "0.0.5",
+    "gulp-uglify": "^2.1.2",
+    "jasmine-core": "^2.5.2",
+    "karma": "^1.5.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-jasmine": "^1.1.0",
+    "karma-phantomjs-launcher": "^1.0.4"
+  }
+}
